@@ -1,0 +1,22 @@
+#surname_edit,
+#firstname_edit,
+#suffixname_edit,
+#middlename_edit {
+  border: none;
+  border-bottom: 1px solid black !important;
+  border-radius: 0;
+  margin-left: 2rem;
+}
+
+#records_id {
+  display: none !important;
+}
+
+#editModal #editLabel {
+  width: 6rem;
+  padding: 0.5rem 0.2rem;
+}
+
+#editModal #modal-container-content {
+  padding: 0rem 1rem;
+}

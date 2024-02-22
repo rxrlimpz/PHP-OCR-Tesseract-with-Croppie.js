@@ -1,0 +1,90 @@
+.modal {
+    font-size: medium;
+    border-radius: 1rem;
+}
+
+#myFeedback .modal-content,
+#somethiIsWrong .modal-content {
+    width: 100rem;
+}
+
+.btn {
+    font-size: medium;
+    padding: 0.3rem 1rem;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+}
+
+.modal-footer,
+.modal-body {
+    border: none;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.modal li {
+    padding: 0.5rem;
+}
+
+.modal textarea {
+    font-size: medium;
+    width: 100%;
+    height: 10rem;
+    overflow-y: auto;
+    text-align: left;
+    padding: 0.5rem;
+    resize: none;
+}
+
+#charCount {
+    margin-bottom: 2rem;
+}
+
+.modal-header {
+    border: none !important;
+    ;
+}
+
+.modal-footer {
+    border: none !important;
+
+}
+
+.red-button {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(275.52deg, #973939 0.28%, #DC7171 100%) !important;
+    border: none;
+}
+
+.red-button:hover {
+    color: white;
+    background: linear-gradient(275.52deg, #6e2323 0.28%, #a14343 100%) !important;
+    border: none;
+}
+
+.green-button {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(275.52deg, #1A9F04 0.28%, #29CC0E 100%) !important;
+    border: none;
+}
+.green-button :hover {
+    color: white;
+    background: linear-gradient(275.52deg, #125a05 0.28%, #169200 100%) !important;
+}
+
+.orange-button {
+    color: white; 
+    font-weight: bold;
+    background: linear-gradient(90.06deg, #FFC464 0%, #FF9F00 100%) !important;
+    border: none;
+}
+.orange-button:hover {
+    color: white;
+    background: linear-gradient(90.06deg, #dfa13f 0%, #ad6e07 100%) !important;
+    border: none;
+}

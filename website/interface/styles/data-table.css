@@ -1,0 +1,135 @@
+body {
+  font-size: medium;
+  color: rgb(87, 87, 87) !important;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+}
+
+.row {
+  padding: 1rem;
+  margin: 0rem 1rem;
+}
+
+/* iput*/
+select {
+  margin: 0rem 1rem 0rem 0rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(171, 171, 171) !important;
+}
+
+.header-table label {
+  margin-left: 0.5rem;
+}
+
+input {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(66, 66, 66);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+
+/* search */
+.header-table select {
+  min-width: 6.5rem;
+}
+
+#searchByName {
+  width: 25vw;
+  max-width: 30vw;
+  border: none;
+  border-bottom: 1px solid black !important;
+  border-radius: 0;
+  padding: 0.2rem;
+  padding-left: 2.5rem;
+  margin-top: 0.75rem;
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  pointer-events: none;
+  color: #2d2d2d;
+  font-weight: 700;
+  margin-top: 0.75rem;
+}
+
+/* table */
+.container-content-table {
+  padding: 1rem;
+}
+
+thead {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(53, 53, 53) !important;
+}
+
+#studTable tbody {
+  border: none;
+}
+
+/* table button */
+#studTable a {
+  appearance: none;
+  margin: 0rem 0.2rem;
+}
+
+#viewThis,
+#editThis,
+#showThis {
+  color: rgb(39, 43, 48);
+}
+
+#deleteThis {
+  color: rgb(182, 19, 19);
+}
+
+/* table pagination*/
+#studTable_paginate {
+  bottom: 0rem;
+  right: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+#studTable_paginate .paginate_button {
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.6rem;
+  background: none;
+  background-color: white;
+  margin: 0rem 0.25rem;
+}
+
+#studTable_paginate .paginate_button#studTable_previous,
+#studTable_paginate .paginate_button#studTable_next {
+  font-weight: normal;
+}
+
+#studTable_paginate .paginate_button#studTable_previous:hover,
+#studTable_paginate .paginate_button#studTable_next:hover {
+  font-weight: normal;
+  border: none;
+}
+
+#studTable_wrapper #studTable_paginate .paginate_button:hover {
+  background: none;
+  background-color: white;
+  color: rgb(29, 27, 27) !important;
+  border: rgb(154, 154, 154) solid 1px;
+}
+
+#studTable_wrapper #studTable_paginate .paginate_button.current {
+  background: none;
+  color: rgb(255, 255, 255) !important;
+  background: linear-gradient(275.52deg, #973939 0.28%, #DC7171 100%) !important;
+  border: none;
+}

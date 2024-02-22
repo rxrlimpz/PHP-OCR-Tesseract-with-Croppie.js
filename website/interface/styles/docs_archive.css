@@ -1,0 +1,32 @@
+#college_edit,
+#course_edit,
+#yearLevel_edit,
+#sem_edit,
+#schoolyear_edit,
+#subj_edit,
+#class_edit {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0;
+  margin-left: 2rem;
+  width: 10rem;
+}
+
+#document_id{
+  display: none !important;
+}
+
+#DocName_edit {
+  border: none;
+  border-radius: 0;
+  width:25rem;
+}
+
+#editModal #editLabel {
+  width: 8rem;
+  padding: 0.5rem 0.2rem;
+}
+
+#editModal #modal-container-content {
+  padding: 0rem 1rem;
+}

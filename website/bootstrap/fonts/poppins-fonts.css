@@ -1,0 +1,19 @@
+/* Poppins Light */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Poppins Light'), local('Poppins-Light'),
+         url('Poppins/Poppins-Light.ttf') format('truetype');
+  }
+  
+
+  /* Poppins Bold Italic */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Poppins Light Italic'), local('Poppins-Light-Italic'),
+         url('Poppins/Poppins-LightItalic.ttf') format('truetype');
+  }
+  

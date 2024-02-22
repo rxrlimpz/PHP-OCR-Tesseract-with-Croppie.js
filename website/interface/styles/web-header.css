@@ -1,0 +1,166 @@
+:root {
+  --accent-color: rgb(0, 0, 0);
+  --light-color: rgb(255, 255, 255);
+  --lightest-gray: rgb(244, 244, 244);
+  --light-gray: rgb(144, 144, 144);
+  --medium-gray: rgb(96, 96, 96);
+  --dark-gray: rgb(13, 13, 13);
+  --maroon: #931105;
+  --orange: #fbb66c;
+  --green: #057600;
+  --yellow: #fff31e;
+  --blue: #0d8ec1;
+  --header-height: 60px;
+  --animation-duration: 200ms;
+  --animation-timing-curve: ease-in-out;
+  --dark: black;
+  --active-text-weight: bold;
+}
+
+.header-gradient {
+  height: 2rem;
+  background: linear-gradient(90deg, #DC7171, #8B0000);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1.5rem 0;
+  height: var(--header-height);
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.5);
+}
+
+.hide-navbar-state {
+  background: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+
+.menu-icon-btn .hide-navbar-state.active {
+  border: none;
+  color: white !important;
+  fill: var(--light-gray);
+}
+
+.menu-icon {
+  width: 20px;
+  height: 25px;
+  fill: var(--light-gray);
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.menu-icon:hover {
+  fill: var(--light-gray);
+}
+
+/*-- Drop Down Account--*/
+.dropdown {
+  margin-right: 0.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  padding: 0px;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
+
+.drop-icon {
+  border: 0.4rem solid rgba(255, 255, 255, 0.014);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  font-weight: bold;
+  color:black;
+}
+
+#profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.profile-container {
+  width: 100%;
+  margin: auto 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.profile-info {
+  margin-right: 1rem;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0rem;
+  background-color: #ffffff;
+  width: 13rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown.is-open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0)fff;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #e7e7e7;
+}
+
+.dropdown a:active {
+  color: rgb(56, 56, 56);
+}
+
+#header_usep_title {
+  margin: 0.3rem 0.25rem 0rem 0.8rem;
+  overflow: hidden;
+  height: 44px;
+  width: 100%;
+}
+
+.header-title-onedata {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-title-text-sysInfo {
+  font-size: small;
+  font-weight: 600;
+}
+
+.usep-logo-container {
+  margin-left: 1rem;
+}
+
+#usep-info img,
+.usep-logo-container img {
+  width: 36px;
+  margin: 12px 2px;
+  border-radius: 50%;
+}
+
+.space-between-logo {
+  height: 32px;
+  width: 1px;
+  background-color: rgb(211, 211, 211);
+  margin: 0.8rem 0.25rem 0.8rem 0.8rem;
+}
+#our_name_title{
+  font-size: medium;
+}
